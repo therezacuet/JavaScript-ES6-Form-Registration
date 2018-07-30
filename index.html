@@ -1,0 +1,64 @@
+<html>
+	<head>
+
+		<title>Post Form Value by ES6</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+ 
+	</head>
+	<body>
+
+		<div class="container">
+
+			<nav class="navbar sticky-top navbar-light bg-light">
+			  <a class="navbar-brand" href="#">Post Form Value by Javascript ES6</a>
+			</nav>
+
+			<div class="jumbotron">
+
+			  <h1 class="display-4">Hello, world!</h1>
+			  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			  <hr class="my-4">
+			  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			  <p class="lead">
+			    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			  </p>
+
+			  <form id="myForm">
+
+					<div class="form-group"> <!-- Name field -->
+						<label class="control-label " for="name">Name</label>
+						<input class="form-control" id="name" name="name" type="text"/>
+					</div>
+					
+					<div class="form-group"> <!-- Email field -->
+						<label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+						<input class="form-control" id="email" name="email" type="text"/>
+					</div>
+					
+					<div class="form-group"> <!-- Subject field -->
+						<label class="control-label " for="subject">Subject</label>
+						<input class="form-control" id="subject" name="subject" type="text"/>
+					</div>
+					
+					<div class="form-group"> <!-- Message field -->
+						<label class="control-label " for="message">Message</label>
+						<textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+					</div>
+					
+					<div class="form-group">
+						<button class="btn btn-primary " type="submit">Submit</button>
+					</div>
+		
+				</form>	
+
+				<p id="response"></p>
+
+			</div>
+
+
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+
+</html>
